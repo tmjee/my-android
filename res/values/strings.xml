@@ -8,5 +8,11 @@
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="listTitle">List title</string>
+    <string name="alertDialogTitle">Alert Dialog Title</string>
+    <string name="alertDialogMessage">An Alert Dialog Message. Thanks!</string>
+    <string name="alertDialogPositiveButton">Positive</string>
+    <string name="alertDialogNegativeButton">Negative</string>
+    <string name="alertDialogNeutralButton">Neutral</string>
+
 
 </resources>
