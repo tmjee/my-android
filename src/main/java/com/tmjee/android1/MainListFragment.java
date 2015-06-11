@@ -17,7 +17,9 @@ public class MainListFragment extends ListFragment {
     private static final MyItem[] MY_ITEMS = new MyItem[] {
             new MyItem("Activity with Fragment"),
             new MyItem("ViewPager"),
-            new MyItem("DialogFragment")
+            new MyItem("DialogFragment"),
+            new MyItem("Fragment2FragmentComm"),
+            new MyItem("ActionBar")
     };
 
     @Override
@@ -49,6 +51,12 @@ public class MainListFragment extends ListFragment {
             startActivity(intent);
         } else if (2 == id) { // dialog fragment
             Intent intent = new Intent(getActivity(), HelloDialogActivity.class);
+            startActivity(intent);
+        } else if (3 == id) { // fragment 2 fragment comm
+            Intent intent = new Intent(getActivity(), FragmentToFragmentCommActivity.class);
+            startActivity(intent);
+        } else if (4 == id) { // action menu
+            Intent intent = new Intent(getActivity(), ActionBarActivity.class);
             startActivity(intent);
         }
     }

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.tmjee.android1"
+          xmlns:tools="http://schemas.android.com/tools"
     android:versionCode="1"
     android:versionName="1.0-SNAPSHOT" >
 
@@ -27,6 +28,18 @@
         </activity>
 
         <activity android:name=".HelloDialogActivity">
+        </activity>
+
+        <activity android:name=".FragmentToFragmentCommActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainListActivity"/>
+        </activity>
+
+        <activity android:name=".ActionBarActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainListActivity" />
         </activity>
     </application>
 

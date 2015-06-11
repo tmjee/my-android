@@ -13,6 +13,8 @@
     <string name="alertDialogPositiveButton">Positive</string>
     <string name="alertDialogNegativeButton">Negative</string>
     <string name="alertDialogNeutralButton">Neutral</string>
-
+    <string name="fragmentToFragmentComm1Message">First fragment to communicate with another fragment</string>
+    <string name="menuItemCreateText">Create</string>
+    <string name="menuItemDeleteText">Delete</string>
 
 </resources>

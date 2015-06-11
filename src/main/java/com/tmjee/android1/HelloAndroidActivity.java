@@ -3,7 +3,9 @@ package com.tmjee.android1;
 import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
+import android.view.ContextMenu;
 import android.view.Menu;
+import android.view.View;
 
 public class HelloAndroidActivity extends Activity {
 
@@ -26,6 +28,11 @@ public class HelloAndroidActivity extends Activity {
                     .replace(R.id.details, fragment)
                     .commit();
         }
+    }
+
+    @Override
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+        super.onCreateContextMenu(menu, v, menuInfo);
     }
 
     @Override
